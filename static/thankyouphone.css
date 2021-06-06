@@ -1,0 +1,22 @@
+@media screen and (max-width: 1315px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    /* navbar section */
+
+
+    #navbar{
+        flex-direction: column;
+    }
+
+    #logo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #navbar ul li a{
+        font-size: 4rem;
+        margin: 0px 0px;
+    }
+}

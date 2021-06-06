@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo img{
+    height: 100px;
+    width: 100px;
+    margin: 18px 7px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    background-color: rgba(222, 184, 135, 0.63);
+    color: rgb(138, 107, 189);
+}
+
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    margin: 15px 5px;
+    font-family: 'Pattaya', sans-serif;
+    align-items: center;
+    /* flex-direction: row; */
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 5px 20px;
+    font-size: 35px;
+}
+#navbar li a:hover{
+    color: rgb(18, 95, 182);
+}
+#navbar li{
+    list-style: none;
+}
+#intro-section{
+    height: 300px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    /* background-color: aquamarine; */
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+    padding-bottom: 130px;
+    opacity: 0.8;
+
+}
+
+#intro-section div.small{
+    font-size: 35px;
+}
+
+#sponsor-section{
+    height: 300px;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+#mission-section{
+    background-color:rgba(222, 184, 135, 0.63);
+    text-align: center;
+    height: 310px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+    /* display: flex; */
+
+}
+
+.card{
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 28%;
+    height: 240px;
+    margin: 0px 30px;
+    padding: 10px;
+    display: inline-block;
+    background-color: coral;
+
+}
+/* #logo */
+#footer{
+    height: 100px;
+    background-color: cornflowerblue;
+
+}
+h2{
+    padding: 10px;
+}
+#navbar ul #logo img{
+    height: 50px;
+    width: 50px;
+}
+.card-img1 img{
+    height: 150px;
+    width: 150px;
+    /* width: 220px; */
+}
+.card-box{
+    display: flex;
+    margin-top: 30px;
+}
+#sponsors img{
+    height: 200px;
+    width: 150px;
+    padding: 20px 5px;
+    margin: 5px 83px;
+}
+#spon3 img{
+    margin-bottom: 10px;
+    width: 190px;
+}
+#spon4 img{
+    margin-bottom: 20px;
+    width: 160px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+}

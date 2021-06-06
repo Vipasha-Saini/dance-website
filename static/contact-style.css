@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body{
+    background-color: rgba(222, 184, 135, 0.63);
+}
+h1{
+    text-align: center;
+    margin: 10px 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 71px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+}
+form input{
+    width: 40vw;
+    padding: 5px 5px;
+    /* text-align: center; */
+    margin: 10px 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    outline: none;
+}
+.btn{
+    padding: 5px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 40vw;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid red;
+    background-color: rgb(192, 112, 112);
+    font-size: 25px;
+
+}
+.container{
+    height: 75vh;
+}
+
+@media screen and (max-width: 1315px) {
+
+    
+
+    /* navbar section */
+
+
+    #navbar{
+        flex-direction: column;
+    }
+
+    #logo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #navbar ul li a{
+        font-size: 4rem;
+        margin: 0px 0px;
+    }
+
+    .container h1{
+        font-size: 100px;
+    }
+
+    form input{
+        width: 80vw;
+        height: 70px;
+        font-size: 40px;
+        margin:30px 0px;
+    }
+    .container{
+        margin-top: 90px;
+    }
+    .btn{
+        width: 80vw;
+        height: 100px;
+        border-radius: 20px;
+        border: 2px solid red;
+        background-color: rgb(192, 112, 112);
+        font-size: 50px;
+    }
+
+    #footer{
+        font-size: 40px;   
+    }
+
+
+
+}

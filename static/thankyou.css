@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(222, 184, 135, 0.63);
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+    margin-bottom: 250px;
+    padding-top: 200px;
+    /* padding: auto auto; */
+
+}
+
+@media screen and (max-width: 1315px) {
+
+    /* navbar section */
+
+
+    #navbar{
+        flex-direction: column;
+    }
+
+    #logo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #navbar ul li a{
+        font-size: 4rem;
+        margin: 0px 0px;
+    }
+
+    
+    p{
+        margin-top:243px;
+        margin-bottom: 565px;
+        font-size: 125px;
+        text-align: center;
+
+    }
+    #footer{
+        font-size: 40px;   
+    }
+}
